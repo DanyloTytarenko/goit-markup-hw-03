@@ -1,0 +1,171 @@
+:root {
+  --font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --text: #434455;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white: #ffffff;
+  --pressed-state: #404bbf;
+}
+body {
+  font-family: var(--font);
+  font-size: 16px;
+  color: var(--dark);
+  background-color: var(--white);
+}
+.logo {
+  font-family: var(--logo-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.dark {
+  color: var(--dark);
+}
+.logo-first-part {
+  color: var(--primary-brand);
+}
+.page-nav {
+  list-style: none;
+}
+.page-nav-link {
+  color: var(--dark);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.page-nav-link:focus,
+.page-nav-link:hover {
+  color: var(--primary-brand);
+}
+.current {
+  color: var(--pressed-state);
+}
+.address-list {
+  list-style: none;
+}
+.address-link {
+  color: var(--text);
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--primary-brand);
+}
+.hidden {
+  opacity: 0;
+}
+.filters {
+  list-style: none;
+}
+.filter-item {
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: var(--light);
+  border: 1px solid var(--accent);
+  color: var(--primary-brand);
+  font-family: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.filter-item:hover,
+.filter-item:focus {
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--pressed-state);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-color: var(--pressed-state);
+}
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-card {
+  border: 1px solid var(--accent);
+  width: 360px;
+}
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+}
+.section-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.light {
+  color: var(--light);
+}
+.footer {
+  background-color: var(--dark);
+}
+.footer-text {
+  color: var(--accent);
+}
+.hero {
+  background-color: var(--dark);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--white);
+}
+.hero-btn {
+  background-color: var(--pressed-state);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid var(--pressed-state);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: inherit;
+  color: var(--white);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  cursor: pointer;
+  background-color: var(--primary-brand);
+}
+.benefits-list {
+  list-style: none;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--dark);
+}
+.doing-list {
+  list-style: none;
+}
+.team {
+  background-color: var(--light);
+}
+.team-list {
+  list-style: none;
+}
