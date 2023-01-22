@@ -21,7 +21,7 @@ body {
   background-color: var(--white);
 }
 .section {
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 .section-subtitle {
   margin-bottom: 8px;
@@ -65,6 +65,8 @@ body {
 .address-list {
   list-style: none;
   display: flex;
+  width: 344px;
+  justify-content: space-between;
 }
 .address-link {
   color: var(--text);
@@ -72,10 +74,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  gap: 40px;
 }
-.address-link:nth-child(1) {
-  margin-right: 40px;
-}
+
 .address-link:hover,
 .address-link:focus {
   color: var(--primary-brand);
@@ -214,7 +215,7 @@ body {
 }
 .doing-list {
   list-style: none;
-  width: 1128px;
+
   display: flex;
   margin-left: calc(-1 * var(--gap));
 }
@@ -226,7 +227,6 @@ body {
   background-color: var(--light);
 }
 .team-list {
-  width: 1128px;
   list-style: none;
   display: flex;
   margin-left: calc(-1 * var(--gap));
@@ -251,10 +251,13 @@ body {
 .container {
   margin: 0 auto;
   width: 1158px;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
 
 .header {
-  padding: 24px 156px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--accent);
 }
 .nav {
   display: flex;
@@ -263,9 +266,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.portfolio {
-  border-bottom: 1px solid var(--accent);
-}
+
 .works {
   padding-top: 96px;
+}
+.benefits {
+  padding-bottom: 0;
 }
